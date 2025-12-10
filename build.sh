@@ -17,7 +17,7 @@ CACHE_FILE="${HOME}/.ohos_toolchain.cache"
 TARGETS=(arm64-v8a armeabi-v7a)
 
 # Go module 入口
-GO_SRC="./cgo"
+GO_SRC="cgo.go"
 OUT_ROOT="./build/v2"
 # =======================
 
