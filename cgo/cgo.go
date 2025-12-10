@@ -7,8 +7,6 @@ package main
 import "C"
 import (
 	"unsafe"
-
-	"github.com/shuffleman/Hamary/harmony"
 )
 
 // ==================== Xray Functions ====================
