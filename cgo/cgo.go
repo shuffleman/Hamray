@@ -7,6 +7,8 @@ package main
 import "C"
 import (
 	"unsafe"
+
+	"github.com/shuffleman/Hamary/hamray"
 )
 
 // ==================== Xray Functions ====================
