@@ -1,0 +1,54 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Compiled binaries
+/Hamray
+/hamray
+
+# CGO build outputs
+cgo/*.so
+cgo/*.h
+cgo/libhamray.*
+
+# Dependency directories
+/vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.coverprofile
+coverage.out
+
+# Debug files
+__debug_bin
+debug
+
+# Agent configuration
+AGENTS.md
+
+# CMake build files
+log/CMakeCache.txt
+log/CMakeFiles/
+log/Makefile
+log/cmake_install.cmake
+log/compile_commands.json
+log/*.so
