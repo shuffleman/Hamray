@@ -1,4 +1,4 @@
-module Hamray
+module hamray
 
 go 1.25.4
 

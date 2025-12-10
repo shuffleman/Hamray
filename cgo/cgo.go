@@ -22,7 +22,7 @@ func StartXray(configJSON *C.char) *C.char {
 
 //export StopXray
 func StopXray() *C.char {
-	result := harmony.StopXray()
+	result := hamray.StopXray()
 	if result == "" {
 		return nil
 	}
