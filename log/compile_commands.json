@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/mnt/d/Hamary/log",
+  "command": "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -Dlog_EXPORTS -I/home/groot/ohos-sdk-41/linux/native/sysroot/usr/include -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -D__MUSL__ -fPIC -o CMakeFiles/log.dir/log.c.o -c /mnt/d/Hamary/log/log.c",
+  "file": "/mnt/d/Hamary/log/log.c",
+  "output": "CMakeFiles/log.dir/log.c.o"
+}
+]

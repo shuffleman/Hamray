@@ -1,0 +1,3 @@
+/mnt/d/Hamary/log/CMakeFiles/log.dir
+/mnt/d/Hamary/log/CMakeFiles/edit_cache.dir
+/mnt/d/Hamary/log/CMakeFiles/rebuild_cache.dir

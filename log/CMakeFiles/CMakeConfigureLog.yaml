@@ -1,0 +1,422 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: OHOS - 1 - aarch64
+      The host system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang 
+      Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;-D__MUSL__
+      Id flags: -c;--target=aarch64-linux-ohos 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /mnt/d/Hamary/log/CMakeFiles/3.28.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++ 
+      Build flags: -fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-fno-addrsig;-Wa,--noexecstack;-Wformat;-Werror=format-security;-D__MUSL__
+      Id flags: -c;--target=aarch64-linux-ohos 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        /mnt/d/Hamary/log/CMakeFiles/3.28.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB"
+      binary: "/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: "/root/command-line-tools/sdk/default/openharmony/native/llvm"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-linux-ohos"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: "/root/command-line-tools/sdk/default/openharmony/native/llvm"
+      CMAKE_C_COMPILER_TARGET: "aarch64-linux-ohos"
+      CMAKE_C_FLAGS: "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat  -D__MUSL__"
+      CMAKE_C_FLAGS_DEBUG: "-O0 -g -fno-limit-debug-info "
+      CMAKE_EXE_LINKER_FLAGS: "--rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/command-line-tools/sdk/default/openharmony/native/sysroot"
+      OHOS_ARCH: "arm64-v8a"
+      OHOS_SDK_NATIVE: "/root/command-line-tools/sdk/default/openharmony/native"
+      OHOS_TOOLCHAIN: "clang"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB'
+        
+        Run Build Command(s): /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4549a/fast
+        gmake: Warning: File 'Makefile' has modification time 0.22 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4549a.dir/build.make CMakeFiles/cmTC_4549a.dir/build
+        gmake[1]: Entering directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_4549a.dir/flags.make' has modification time 0.2 s in the future
+        Building C object CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o
+        /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot   -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat  -D__MUSL__  -fPIE   -v -MD -MT CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin
+        clang: warning: argument unused during compilation: '--gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+         (in-process)
+         "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB -resource-dir /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -sys-header-deps -D __MUSL__ -isysroot /root/command-line-tools/sdk/default/openharmony/native/sysroot -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include -Wformat -fdebug-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -x c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/root/command-line-tools/sdk/default/openharmony/native/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include
+         /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos
+         /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include
+        End of search list.
+        Linking C executable cmTC_4549a
+        /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4549a.dir/link.txt --verbose=1
+        /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat  -D__MUSL__  --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -o cmTC_4549a 
+        OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin
+         "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld" --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_4549a /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/ -L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+          add: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+          add: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        implicit include dirs: [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB']
+        ignore line: []
+        ignore line: [Run Build Command(s): /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4549a/fast]
+        ignore line: [gmake: Warning: File 'Makefile' has modification time 0.22 s in the future]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_4549a.dir/build.make CMakeFiles/cmTC_4549a.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB']
+        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_4549a.dir/flags.make' has modification time 0.2 s in the future]
+        ignore line: [Building C object CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot   -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat  -D__MUSL__  -fPIE   -v -MD -MT CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin]
+        ignore line: [clang: warning: argument unused during compilation: '--gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB -resource-dir /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -sys-header-deps -D __MUSL__ -isysroot /root/command-line-tools/sdk/default/openharmony/native/sysroot -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include -Wformat -fdebug-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-aPXPTB -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -x c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/root/command-line-tools/sdk/default/openharmony/native/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_4549a]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4549a.dir/link.txt --verbose=1]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat  -D__MUSL__  --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o -o cmTC_4549a ]
+        ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin]
+        link line: [ "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld" --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_4549a /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/ -L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld] ==> ignore
+          arg [--sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4549a] ==> ignore
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/]
+          arg [--build-id=sha1] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-undefined] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_4549a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-lc] ==> lib [c]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        remove lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        remove lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/aarch64-linux-ohos]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit libs: [unwind;-l:libunwind.a;c;-l:libunwind.a]
+        implicit objs: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        implicit dirs: [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX"
+      binary: "/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: "/root/command-line-tools/sdk/default/openharmony/native/llvm"
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-linux-ohos"
+      CMAKE_CXX_FLAGS: "-fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -D__MUSL__"
+      CMAKE_CXX_FLAGS_DEBUG: "-O0 -g -fno-limit-debug-info "
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: "/root/command-line-tools/sdk/default/openharmony/native/llvm"
+      CMAKE_C_COMPILER_TARGET: "aarch64-linux-ohos"
+      CMAKE_EXE_LINKER_FLAGS: "--rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/command-line-tools/sdk/default/openharmony/native/sysroot"
+      OHOS_ARCH: "arm64-v8a"
+      OHOS_SDK_NATIVE: "/root/command-line-tools/sdk/default/openharmony/native"
+      OHOS_TOOLCHAIN: "clang"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX'
+        
+        Run Build Command(s): /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3eb97/fast
+        gmake: Warning: File 'Makefile' has modification time 0.24 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3eb97.dir/build.make CMakeFiles/cmTC_3eb97.dir/build
+        gmake[1]: Entering directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_3eb97.dir/flags.make' has modification time 0.23 s in the future
+        Building CXX object CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o
+        /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot   -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -D__MUSL__  -fPIE   -v -MD -MT CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin
+        clang++: warning: argument unused during compilation: '--gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]
+         (in-process)
+         "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX -resource-dir /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D __MUSL__ -isysroot /root/command-line-tools/sdk/default/openharmony/native/sysroot -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -x c++ /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/root/command-line-tools/sdk/default/openharmony/native/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1
+         /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include
+         /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos
+         /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include
+        End of search list.
+        Linking CXX executable cmTC_3eb97
+        /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb97.dir/link.txt --verbose=1
+        /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -D__MUSL__  --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3eb97 
+        OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)
+        Target: aarch64-unknown-linux-ohos
+        Thread model: posix
+        InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin
+         "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld" --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_3eb97 /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/ -L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+          add: [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+          add: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+          add: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/include/libcxx-ohos/include/c++/v1]
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+        collapse include dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        implicit include dirs: [/root/command-line-tools/sdk/default/openharmony/native/llvm/include/libcxx-ohos/include/c++/v1;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX']
+        ignore line: []
+        ignore line: [Run Build Command(s): /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3eb97/fast]
+        ignore line: [gmake: Warning: File 'Makefile' has modification time 0.24 s in the future]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_3eb97.dir/build.make CMakeFiles/cmTC_3eb97.dir/build]
+        ignore line: [gmake[1]: Entering directory '/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX']
+        ignore line: [gmake[1]: Warning: File 'CMakeFiles/cmTC_3eb97.dir/flags.make' has modification time 0.23 s in the future]
+        ignore line: [Building CXX object CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot   -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat   -D__MUSL__  -fPIE   -v -MD -MT CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -c /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin]
+        ignore line: [clang++: warning: argument unused during compilation: '--gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm' [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++" -cc1 -triple aarch64-unknown-linux-ohos -emit-obj -mrelax-all --mrelax-relocations -mnoexecstack -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX -resource-dir /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4 -dependency-file CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D __MUSL__ -isysroot /root/command-line-tools/sdk/default/openharmony/native/sysroot -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1 -internal-isystem /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/include -internal-externc-isystem /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir=/mnt/d/Hamary/log/CMakeFiles/CMakeScratch/TryCompile-BywUmX -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -x c++ /root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.4 based upon LLVM 15.0.4 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/root/command-line-tools/sdk/default/openharmony/native/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../include/libcxx-ohos/include/c++/v1]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/include]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include/aarch64-linux-ohos]
+        ignore line: [ /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_3eb97]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/build-tools/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eb97.dir/link.txt --verbose=1]
+        ignore line: [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/clang++ --target=aarch64-linux-ohos --gcc-toolchain=/root/command-line-tools/sdk/default/openharmony/native/llvm --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -D__MUSL__  --rtlib=compiler-rt -fuse-ld=lld -Wl,--build-id=sha1 -Wl,--warn-shared-textrel -Wl,--fatal-warnings -lunwind -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections  -v CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_3eb97 ]
+        ignore line: [OHOS (dev) clang version 15.0.4 (llvm-project 115b628d33dda4da4b17e14ed69dd8b74c058b48)]
+        ignore line: [Target: aarch64-unknown-linux-ohos]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/command-line-tools/sdk/default/openharmony/native/llvm/bin]
+        link line: [ "/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld" --sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /lib/ld-musl-aarch64.so.1 -o cmTC_3eb97 /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o -L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/ -L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/ -L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/ --build-id=sha1 --warn-shared-textrel --fatal-warnings -lunwind --no-undefined -z noexecstack --gc-sections CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o /root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/ld.lld] ==> ignore
+          arg [--sysroot=/root/command-line-tools/sdk/default/openharmony/native/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-musl-aarch64.so.1] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3eb97] ==> ignore
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/]
+          arg [-L/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/] ==> dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/]
+          arg [--build-id=sha1] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [-lunwind] ==> lib [unwind]
+          arg [--no-undefined] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_3eb97.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lc++abi] ==> lib [c++abi]
+          arg [-lunwind] ==> lib [unwind]
+          arg [-lm] ==> lib [m]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-lc] ==> lib [c]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a] ==> lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o]
+          arg [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o] ==> obj [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        remove lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        remove lib [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/libclang_rt.builtins.a]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/llvm/bin/../lib/aarch64-linux-ohos/] ==> [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/aarch64-linux-ohos]
+        collapse library dir [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/] ==> [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit libs: [unwind;c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+        implicit objs: [/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/Scrt1.o;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crti.o;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtbegin.o;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos/clang_rt.crtend.o;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos/crtn.o]
+        implicit dirs: [/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/clang/15.0.4/lib/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib;/root/command-line-tools/sdk/default/openharmony/native/llvm/lib/aarch64-linux-ohos;/root/command-line-tools/sdk/default/openharmony/native/sysroot/usr/lib/aarch64-linux-ohos]
+        implicit fwks: []
+      
+      
+...
