@@ -1,4 +1,4 @@
-package Hamray
+package xray
 
 import (
 	"bytes"
