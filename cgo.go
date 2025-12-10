@@ -1,4 +1,4 @@
-// Package main provides CGO exports for HarmonyOS.
+// Package main provides CGO exports for hamrayOS.
 package main
 
 /*
@@ -32,7 +32,7 @@ func StopXray() *C.char {
 
 //export IsXrayRunning
 func IsXrayRunning() C.int {
-	if harmony.IsXrayRunning() {
+	if hamray.IsXrayRunning() {
 		return 1
 	}
 	return 0
@@ -42,7 +42,7 @@ func IsXrayRunning() C.int {
 
 //export StartTunnel
 func StartTunnel(fd C.int, mtu C.int, proxyAddress *C.char) *C.char {
-	result := harmony.StartTunnel(int(fd), int(mtu), C.GoString(proxyAddress))
+	result := hamray.StartTunnel(int(fd), int(mtu), C.GoString(proxyAddress))
 	if result == "" {
 		return nil
 	}
@@ -51,7 +51,7 @@ func StartTunnel(fd C.int, mtu C.int, proxyAddress *C.char) *C.char {
 
 //export StopTunnel
 func StopTunnel() *C.char {
-	result := harmony.StopTunnel()
+	result := hamray.StopTunnel()
 	if result == "" {
 		return nil
 	}
@@ -60,7 +60,7 @@ func StopTunnel() *C.char {
 
 //export IsTunnelRunning
 func IsTunnelRunning() C.int {
-	if harmony.IsTunnelRunning() {
+	if hamray.IsTunnelRunning() {
 		return 1
 	}
 	return 0
@@ -70,7 +70,7 @@ func IsTunnelRunning() C.int {
 
 //export StartAll
 func StartAll(xrayConfigJSON *C.char, tunFD C.int, mtu C.int, proxyAddress *C.char) *C.char {
-	result := harmony.StartAll(
+	result := hamray.StartAll(
 		C.GoString(xrayConfigJSON),
 		int(tunFD),
 		int(mtu),
@@ -84,7 +84,7 @@ func StartAll(xrayConfigJSON *C.char, tunFD C.int, mtu C.int, proxyAddress *C.ch
 
 //export StopAll
 func StopAll() *C.char {
-	result := harmony.StopAll()
+	result := hamray.StopAll()
 	if result == "" {
 		return nil
 	}
@@ -95,7 +95,7 @@ func StopAll() *C.char {
 
 //export GetVersion
 func GetVersion() *C.char {
-	return C.CString(harmony.Version())
+	return C.CString(hamray.Version())
 }
 
 //export FreeString
