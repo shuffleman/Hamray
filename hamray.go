@@ -1,7 +1,7 @@
-package Hamray
+package hamray
 
 import (
-	"Hamray/xray"
+	"hamray/xray"
 	"sync"
 )
 

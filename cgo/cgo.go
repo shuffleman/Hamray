@@ -8,7 +8,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/shuffleman/Hamary/hamray"
+	"github.com/shuffleman/Hamray/hamray"
 )
 
 // ==================== Xray Functions ====================
