@@ -14,7 +14,7 @@ SYSROOT="${OHOS_SDK}/sysroot"
 CACHE_FILE="${HOME}/.ohos_toolchain.cache"
 
 # 你想编译的架构（可以自己加）
-TARGETS=(arm64-v8a armeabi-v7a)
+TARGETS=(arm64-v8a)
 
 # Go module 入口
 GO_SRC="cgo.go"
