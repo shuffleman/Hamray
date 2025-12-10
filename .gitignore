@@ -2,7 +2,6 @@
 *.exe
 *.exe~
 *.dll
-*.so
 *.dylib
 *.test
 *.out
@@ -51,4 +50,3 @@ log/CMakeFiles/
 log/Makefile
 log/cmake_install.cmake
 log/compile_commands.json
-log/*.so
