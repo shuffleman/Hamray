@@ -6,9 +6,8 @@ package main
 */
 import "C"
 import (
+	"hamray/pkg/hamray"
 	"unsafe"
-
-	"github.com/shuffleman/Hamray/hamray"
 )
 
 // ==================== Xray Functions ====================
