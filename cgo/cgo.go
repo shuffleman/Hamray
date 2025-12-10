@@ -13,7 +13,7 @@ import (
 
 //export StartXray
 func StartXray(configJSON *C.char) *C.char {
-	result := harmony.StartXray(C.GoString(configJSON))
+	result := hamray.StartXray(C.GoString(configJSON))
 	if result == "" {
 		return nil
 	}
